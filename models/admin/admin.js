@@ -1,23 +1,24 @@
-'use strict';
+'use strict'
 
 import mongoose from 'mongoose'
 
-const Schema = mongoose.Schema;
+const Schema = mongoose.Schema
 
 const adminSchema = new Schema({
-	user_name: String,
-	password: String,
-	id: Number,
-	create_time: String,
-	admin: {type: String, default: '管理员'},
-	status: Number,  //1:普通管理、 2:超级管理员
-	avatar: {type: String, default: 'default.jpg'},
-	city: String,
+  user_name: String,
+  password: String,
+  identity_num: String,
+  id: String,
+  gender: Number, // 0女1男
+  create_time: String,
+  email: String,
+  phone_number: String,
+  grade: Number, // 1:普通管理、 2:超级管理员
+  avatar: { type: String, default: 'default.jpg' }
 })
 
-adminSchema.index({id: 1});
+adminSchema.index({ id: 1 })
 
-const Admin = mongoose.model('Admin', adminSchema);
-
+const Admin = mongoose.model('Admin', adminSchema)
 
 export default Admin

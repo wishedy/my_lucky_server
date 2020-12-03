@@ -1,22 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="8b339562-d354-46f1-8981-2c9e85d04f4f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.babelrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/API.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/COPYING" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/start.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/stop.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/ErrorCode.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/constants.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middlewares/JWT.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middlewares/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/ids.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/utils/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/verify/admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/my_lucky_server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/my_lucky_server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/InitData/cities.js" beforeDir="false" afterPath="$PROJECT_DIR$/InitData/cities.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/default.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/default.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/admin/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/admin/admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middlewares/check.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/check.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middlewares/history.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/history.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/middlewares/statistic.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/statistic.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/admin/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/admin/admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mongodb/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/db.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototype/addressComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/prototype/addressComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prototype/baseComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/prototype/baseComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -24,32 +68,59 @@
   <component name="ProjectId" id="1b0wnxBfyZPTV3MZbiQaX5Nom7D" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.nodejs.core.library.configured.version" value="14.15.0" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.14.10" />
+    <property name="js.linters.configure.manually.selectedeslint" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/config" />
+      <recent name="$PROJECT_DIR$/middlewares" />
     </key>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
+  <component name="RunManager" selected="Node.js.index.js">
+    <configuration name="index.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/index.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
       <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
+        <item itemvalue="Node.js.index.js" />
+        <item itemvalue="npm.dev" />
       </list>
-    </option>
+    </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -60,21 +131,73 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1587782489535</updated>
-      <workItem from="1587782491362" duration="1250000" />
+      <workItem from="1587782491362" duration="6603000" />
+      <workItem from="1606899148792" duration="688000" />
+      <workItem from="1606901394348" duration="19415000" />
     </task>
+    <task id="LOCAL-00001" summary="feat: 项目创建">
+      <created>1587783876246</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587783876246</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: 项目创建">
+      <created>1587783913562</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1587783913562</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: 项目创建" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 项目创建" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="298" y="50" key="CommitChangelistDialog2" timestamp="1587783875940">
+    <state x="526" y="358" key="Github.CreateGistDialog" timestamp="1606910208310">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="298" y="50" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1587783875940" />
-    <state x="378" y="212" width="683" height="476" key="find.popup" timestamp="1587783056654">
+    <state x="526" y="358" key="Github.CreateGistDialog/0.0.1440.900/-1920.0.1920.1080@0.0.1440.900" timestamp="1606910208310" />
+    <state width="1419" height="343" key="GridCell.Tab.0.bottom" timestamp="1606985988398">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="378" y="212" width="683" height="476" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1587783056654" />
+    <state width="1419" height="343" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.0.1920.1080@0.0.1440.900" timestamp="1606985988398" />
+    <state width="1419" height="343" key="GridCell.Tab.0.center" timestamp="1606985988393">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="343" key="GridCell.Tab.0.center/0.0.1440.900/-1920.0.1920.1080@0.0.1440.900" timestamp="1606985988393" />
+    <state width="1419" height="343" key="GridCell.Tab.0.left" timestamp="1606985988390">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="343" key="GridCell.Tab.0.left/0.0.1440.900/-1920.0.1920.1080@0.0.1440.900" timestamp="1606985988390" />
+    <state width="1419" height="343" key="GridCell.Tab.0.right" timestamp="1606985988395">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1419" height="343" key="GridCell.Tab.0.right/0.0.1440.900/-1920.0.1920.1080@0.0.1440.900" timestamp="1606985988395" />
+    <state x="64" y="89" key="SettingsEditor" timestamp="1606981697246">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="64" y="89" key="SettingsEditor/0.0.1440.900/-1920.0.1920.1080@0.0.1440.900" timestamp="1606981697246" />
+    <state x="421" y="205" width="598" height="490" key="find.popup" timestamp="1606982479984">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="421" y="205" width="598" height="490" key="find.popup/0.0.1440.900/-1920.0.1920.1080@0.0.1440.900" timestamp="1606982479984" />
   </component>
 </project>

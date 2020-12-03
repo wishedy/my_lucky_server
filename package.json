@@ -9,6 +9,8 @@
   "scripts": {
     "dev": "cross-env NODE_ENV=development supervisor --harmony index.js",
     "local": "cross-env NODE_ENV=local supervisor  --harmony index.js",
+    "debug": "node-inspect ./bin/www",
+    "lint": "./node_modules/.bin/eslint src",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "cross-env NODE_ENV=production pm2 start index.js --node-args='--harmony' --name 'node-elm'",
     "stop": "cross-env NODE_ENV=production pm2 stop index.js --name 'node-elm'",
@@ -26,6 +28,7 @@
     "babel-preset-stage-3": "^6.22.0",
     "babel-register": "^6.24.0",
     "bluebird": "^3.5.0",
+    "body-parser": "^1.19.0",
     "captchapng": "0.0.1",
     "chalk": "^2.3.0",
     "config-lite": "^1.5.0",
@@ -35,14 +38,18 @@
     "cookie-parser": "^1.4.3",
     "cross-env": "^5.0.0",
     "express": "^4.15.2",
+    "express-jwt": "^6.0.0",
     "express-session": "^1.15.2",
     "express-winston": "^2.3.0",
+    "file-stream-rotator": "^0.5.7",
     "formidable": "^1.1.1",
     "gm": "^1.23.0",
+    "jsonwebtoken": "^8.5.1",
     "marked": "^0.3.6",
-    "moment": "^2.18.1",
+    "moment": "^2.29.1",
     "mongodb": "^2.2.25",
     "mongoose": "^4.9.3",
+    "nanoid": "^3.1.20",
     "node-fetch": "^1.6.3",
     "pinyin": "^2.8.3",
     "pm2": "^2.8.0",
@@ -54,9 +61,16 @@
     "winston": "^2.3.1"
   },
   "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
     "babel-plugin-transform-async-to-generator": "^6.24.1",
     "babel-plugin-transform-es2015-classes": "^6.24.1",
     "babel-plugin-transform-es2015-modules-commonjs": "^6.24.1",
-    "babel-plugin-transform-export-extensions": "^6.22.0"
+    "babel-plugin-transform-export-extensions": "^6.22.0",
+    "morgan": "^1.10.0"
   }
 }
