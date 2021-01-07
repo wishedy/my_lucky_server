@@ -20,35 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b339562-d354-46f1-8981-2c9e85d04f4f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.eslintignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/ErrorCode.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/constants.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middlewares/JWT.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/middlewares/auth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/ids.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/utils/common.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/verify/admin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/my_lucky_server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/my_lucky_server.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/InitData/cities.js" beforeDir="false" afterPath="$PROJECT_DIR$/InitData/cities.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/default.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/default.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controller/admin/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/admin/admin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middlewares/check.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/check.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middlewares/history.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/history.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/middlewares/statistic.js" beforeDir="false" afterPath="$PROJECT_DIR$/middlewares/statistic.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/models/admin/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/admin/admin.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mongodb/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/mongodb/db.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototype/addressComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/prototype/addressComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prototype/baseComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/prototype/baseComponent.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/admin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/verify/admin.js" beforeDir="false" afterPath="$PROJECT_DIR$/verify/admin.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +39,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/controller/admin/admin.js" root0="SKIP_INSPECTION" />
+  </component>
   <component name="ProjectId" id="1b0wnxBfyZPTV3MZbiQaX5Nom7D" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -76,7 +53,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="14.15.0" />
-    <property name="javascript.nodejs.core.library.typings.version" value="14.14.10" />
+    <property name="javascript.nodejs.core.library.typings.version" value="14.14.20" />
     <property name="js.linters.configure.manually.selectedeslint" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -115,8 +92,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.index.js" />
         <item itemvalue="npm.dev" />
+        <item itemvalue="Node.js.index.js" />
       </list>
     </recent_temporary>
   </component>
@@ -133,7 +110,10 @@
       <updated>1587782489535</updated>
       <workItem from="1587782491362" duration="6603000" />
       <workItem from="1606899148792" duration="688000" />
-      <workItem from="1606901394348" duration="19415000" />
+      <workItem from="1606901394348" duration="19601000" />
+      <workItem from="1606990265444" duration="9000" />
+      <workItem from="1609933304059" duration="1612000" />
+      <workItem from="1610018317265" duration="1990000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 项目创建">
       <created>1587783876246</created>
@@ -149,7 +129,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587783913562</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="feat: 管理员注册">
+      <created>1606987076092</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606987076092</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,39 +152,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: 项目创建" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 项目创建" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="526" y="358" key="Github.CreateGistDialog" timestamp="1606910208310">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="526" y="358" key="Github.CreateGistDialog/0.0.1440.900/-1920.0.1920.1080@0.0.1440.900" timestamp="1606910208310" />
-    <state width="1419" height="343" key="GridCell.Tab.0.bottom" timestamp="1606985988398">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1419" height="343" key="GridCell.Tab.0.bottom/0.0.1440.900/-1920.0.1920.1080@0.0.1440.900" timestamp="1606985988398" />
-    <state width="1419" height="343" key="GridCell.Tab.0.center" timestamp="1606985988393">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1419" height="343" key="GridCell.Tab.0.center/0.0.1440.900/-1920.0.1920.1080@0.0.1440.900" timestamp="1606985988393" />
-    <state width="1419" height="343" key="GridCell.Tab.0.left" timestamp="1606985988390">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1419" height="343" key="GridCell.Tab.0.left/0.0.1440.900/-1920.0.1920.1080@0.0.1440.900" timestamp="1606985988390" />
-    <state width="1419" height="343" key="GridCell.Tab.0.right" timestamp="1606985988395">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1419" height="343" key="GridCell.Tab.0.right/0.0.1440.900/-1920.0.1920.1080@0.0.1440.900" timestamp="1606985988395" />
-    <state x="64" y="89" key="SettingsEditor" timestamp="1606981697246">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="64" y="89" key="SettingsEditor/0.0.1440.900/-1920.0.1920.1080@0.0.1440.900" timestamp="1606981697246" />
-    <state x="421" y="205" width="598" height="490" key="find.popup" timestamp="1606982479984">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="421" y="205" width="598" height="490" key="find.popup/0.0.1440.900/-1920.0.1920.1080@0.0.1440.900" timestamp="1606982479984" />
+    <MESSAGE value="feat: 管理员注册" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 管理员注册" />
   </component>
 </project>

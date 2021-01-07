@@ -9,11 +9,9 @@ const adminSchema = new Schema({
   password: String,
   identity_num: String,
   id: String,
-  gender: Number, // 0女1男
   create_time: String,
   email: String,
   phone_number: String,
-  grade: Number, // 1:普通管理、 2:超级管理员
   avatar: { type: String, default: 'default.jpg' }
 })
 
